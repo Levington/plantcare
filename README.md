@@ -148,3 +148,4 @@ cd plant-care-app
 3. Зафиксируйте изменения (`git commit -m 'Add some AmazingFeature'`)
 4. Отправьте в ветку (`git push origin feature/AmazingFeature`)
 5. Создайте Pull Request
+# plantcare
