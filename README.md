@@ -148,16 +148,3 @@ cd plant-care-app
 3. Зафиксируйте изменения (`git commit -m 'Add some AmazingFeature'`)
 4. Отправьте в ветку (`git push origin feature/AmazingFeature`)
 5. Создайте Pull Request
-
-## Лицензия
-
-Этот проект распространяется под лицензией MIT. См. файл `LICENSE` для подробностей.
-
-## Контакты
-
-- Email: [your-email@example.com]
-- GitHub: [@yourusername]
-
----
-
-*Создано с ❤️ и Jetpack Compose*
