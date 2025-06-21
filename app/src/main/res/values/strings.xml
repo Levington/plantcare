@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Plant Care</string>
+
+    <!-- Главный экран -->
+    <string name="my_plants">Мои растения</string>
+    <string name="add_plant">Добавить растение</string>
+    <string name="statistics">Статистика</string>
+    <string name="plants_count">Растений</string>
+    <string name="need_watering">Требуют полива</string>
+    <string name="need_fertilizing">Требуют удобрения</string>
+    <string name="no_plants">Нет растений</string>
+    <string name="add_first_plant">Добавьте первое растение, нажав на кнопку +</string>
+
+    <!-- Карточка растения -->
+    <string name="water_plant">Полить</string>
+    <string name="fertilize_plant">Удобрить</string>
+    <string name="delete_plant">Удалить растение</string>
+    <string name="needs_watering">Нужен полив!</string>
+    <string name="watering_tomorrow">Полив завтра</string>
+    <string name="watering_in_days">Полив через %d дн.</string>
+    <string name="needs_fertilizing">Нужно удобрение!</string>
+    <string name="fertilizing_soon">Удобрение скоро</string>
+    <string name="fertilizing_in_days">Удобрение через %d дн.</string>
+    <string name="notes">Заметки: %s</string>
+
+    <!-- Диалог удаления -->
+    <string name="delete_plant_title">Удалить растение?</string>
+    <string name="delete_plant_message">Вы уверены, что хотите удалить %s? Это действие нельзя отменить.</string>
+    <string name="delete">Удалить</string>
+    <string name="cancel">Отмена</string>
+
+    <!-- Диалог добавления растения -->
+    <string name="add_new_plant">Добавить новое растение</string>
+    <string name="plant_name">Название растения</string>
+    <string name="plant_species">Вид растения</string>
+    <string name="plant_location">Местоположение</string>
+    <string name="watering_days">Полив (дни)</string>
+    <string name="fertilizing_days">Удобрение (дни)</string>
+    <string name="plant_notes">Заметки</string>
+    <string name="add">Добавить</string>
+
+    <!-- Уведомления -->
+    <string name="watering_reminder_title">Время поливать растения!</string>
+    <string name="watering_reminder_text">%s нуждается в поливе</string>
+    <string name="fertilizing_reminder_title">Время удобрять растения!</string>
+    <string name="fertilizing_reminder_text">%s нуждается в удобрении</string>
+</resources>
