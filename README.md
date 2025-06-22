@@ -42,17 +42,17 @@ Plant Care App помогает пользователям отслеживат�
 
 ```
 src/main/java/com/example/plantcare/
-├── MainActivity.kt              # Главная активность
-├── PlantCareApp.kt             # Основной композабл приложения
-├── PlantViewModel.kt           # ViewModel для управления состоянием
-├── AddPlantDialog.kt           # Диалог добавления растения
-├── PlantCard.kt                # Карточка растения
-├── Theme.kt                    # Настройки темы Material 3
-├── Type.kt                     # Типографские стили
+├── MainActivity.kt              
+├── PlantCareApp.kt             
+├── PlantViewModel.kt           
+├── AddPlantDialog.kt           
+├── PlantCard.kt                
+├── Theme.kt                    
+├── Type.kt                     
 ├── model/
-│   └── Plant.kt                # Модель данных растения
+│   └── Plant.kt                
 └── repository/
-    └── PlantRepository.kt      # Репозиторий для работы с данными
+    └── PlantRepository.kt      
 ```
 
 ## Модель данных
@@ -61,14 +61,14 @@ src/main/java/com/example/plantcare/
 ```kotlin
 data class Plant(
     val id: Int = 0,
-    val name: String,           // Название растения
-    val species: String,        // Вид растения
-    val location: String,       // Местоположение
-    val wateringInterval: Int,  // Интервал полива (дни)
-    val fertilizingInterval: Int, // Интервал удобрения (дни)
-    val lastWatered: Long,      // Время последнего полива
-    val lastFertilized: Long,   // Время последнего удобрения
-    val notes: String           // Заметки
+    val name: String,           
+    val species: String,        
+    val location: String,       
+    val wateringInterval: Int,  
+    val fertilizingInterval: Int, 
+    val lastWatered: Long,      
+    val lastFertilized: Long,   
+    val notes: String           
 )
 ```
 
