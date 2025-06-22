@@ -35,7 +35,6 @@ fun PlantCard(
         Column(
             modifier = Modifier.padding(16.dp)
         ) {
-            // Заголовок с названием и местоположением
             Row(
                 modifier = Modifier.fillMaxWidth(),
                 horizontalArrangement = Arrangement.SpaceBetween,
@@ -83,12 +82,12 @@ fun PlantCard(
 
             Spacer(modifier = Modifier.height(12.dp))
 
-            // Статус полива и удобрения
+
             Row(
                 modifier = Modifier.fillMaxWidth(),
                 horizontalArrangement = Arrangement.spacedBy(12.dp)
             ) {
-                // Статус полива
+
                 PlantStatusChip(
                     icon = Icons.Default.WaterDrop,
                     text = when {
@@ -104,7 +103,7 @@ fun PlantCard(
                     modifier = Modifier.weight(1f)
                 )
 
-                // Статус удобрения
+
                 PlantStatusChip(
                     icon = Icons.Default.Science,
                     text = when {
@@ -123,7 +122,7 @@ fun PlantCard(
 
             Spacer(modifier = Modifier.height(12.dp))
 
-            // Кнопки действий
+
             Row(
                 modifier = Modifier.fillMaxWidth(),
                 horizontalArrangement = Arrangement.spacedBy(8.dp)
@@ -158,7 +157,7 @@ fun PlantCard(
                 }
             }
 
-            // Заметки (если есть)
+
             if (plant.notes.isNotEmpty()) {
                 Spacer(modifier = Modifier.height(8.dp))
                 Text(
@@ -175,7 +174,7 @@ fun PlantCard(
         }
     }
 
-    // Диалог подтверждения удаления
+
     if (showDeleteDialog) {
         AlertDialog(
             onDismissRequest = { showDeleteDialog = false },

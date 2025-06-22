@@ -57,7 +57,7 @@ class PlantRepository {
 
     private fun getSamplePlants(): List<Plant> {
         val currentTime = System.currentTimeMillis()
-        // Создаем растения с разными временами последнего полива для тестирования
+
         return listOf(
             Plant(
                 id = 1,
@@ -67,8 +67,8 @@ class PlantRepository {
                 fertilizingInterval = 30,
                 location = "Гостиная",
                 notes = "Любит яркий рассеянный свет",
-                lastWatered = currentTime - (6 * 24 * 60 * 60 * 1000L), // 6 дней назад
-                lastFertilized = currentTime - (25 * 24 * 60 * 60 * 1000L) // 25 дней назад
+                lastWatered = currentTime - (6 * 24 * 60 * 60 * 1000L),
+                lastFertilized = currentTime - (25 * 24 * 60 * 60 * 1000L)
             ),
             Plant(
                 id = 2,
@@ -78,8 +78,8 @@ class PlantRepository {
                 fertilizingInterval = 21,
                 location = "Спальня",
                 notes = "Нуждается в опоре для роста",
-                lastWatered = currentTime - (8 * 24 * 60 * 60 * 1000L), // 8 дней назад (нужен полив)
-                lastFertilized = currentTime - (20 * 24 * 60 * 60 * 1000L) // 20 дней назад
+                lastWatered = currentTime - (8 * 24 * 60 * 60 * 1000L),
+                lastFertilized = currentTime - (20 * 24 * 60 * 60 * 1000L)
             ),
             Plant(
                 id = 3,
@@ -89,8 +89,8 @@ class PlantRepository {
                 fertilizingInterval = 60,
                 location = "Кабинет",
                 notes = "Очень неприхотливое растение",
-                lastWatered = currentTime - (10 * 24 * 60 * 60 * 1000L), // 10 дней назад
-                lastFertilized = currentTime - (65 * 24 * 60 * 60 * 1000L) // 65 дней назад (нужно удобрение)
+                lastWatered = currentTime - (10 * 24 * 60 * 60 * 1000L),
+                lastFertilized = currentTime - (65 * 24 * 60 * 60 * 1000L)
             )
         )
     }

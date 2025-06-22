@@ -46,12 +46,12 @@ fun PlantCareApp(viewModel: PlantViewModel) {
                 .padding(paddingValues)
                 .padding(16.dp)
         ) {
-            // Статистика
+
             PlantStatistics(plants)
 
             Spacer(modifier = Modifier.height(16.dp))
 
-            // Список растений
+
             if (plants.isEmpty()) {
                 EmptyPlantList()
             } else {

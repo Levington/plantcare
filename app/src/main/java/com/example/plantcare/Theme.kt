@@ -16,7 +16,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
 
-// Цветовая схема для светлой темы
+
 private val LightColorScheme = lightColorScheme(
     primary = Color(0xFF4CAF50),
     onPrimary = Color.White,
@@ -49,7 +49,7 @@ private val LightColorScheme = lightColorScheme(
     scrim = Color(0xFF000000)
 )
 
-// Цветовая схема для темной темы
+
 private val DarkColorScheme = darkColorScheme(
     primary = Color(0xFF81C784),
     onPrimary = Color(0xFF1B5E20),
@@ -85,7 +85,7 @@ private val DarkColorScheme = darkColorScheme(
 @Composable
 fun PlantCareTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
-    // Dynamic color is available on Android 12+
+
     dynamicColor: Boolean = true,
     content: @Composable () -> Unit
 ) {
