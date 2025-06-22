@@ -140,12 +140,4 @@ cd plant-care-app
 - [ ] **Советы по уходу** для разных видов растений
 - [ ] **Журнал ухода** с историей действий
 - [ ] **Виджеты** для быстрого доступа к информации
-
-## Вклад в проект
-
-1. Создайте fork репозитория
-2. Создайте ветку для новой функции (`git checkout -b feature/AmazingFeature`)
-3. Зафиксируйте изменения (`git commit -m 'Add some AmazingFeature'`)
-4. Отправьте в ветку (`git push origin feature/AmazingFeature`)
-5. Создайте Pull Request
 # plantcare
